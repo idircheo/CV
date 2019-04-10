@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style type=text/css >
+    label {
+        display: block;
+        font: 1rem  'sans-serif';
+    }
+
+    input,
+    label {
+        margin: .4rem 0;
+    }
+
+    .note {
+        font-size: .8em;
+    }
+
+    </style>
+
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+
+    <h3>Contact Information</h3>
+<address>
+
+
+    <p>
+    <a  href="mailto:vincent@faithforhope.com" > Click Me to contact.</a>
+      </p>
+
+      </address>
+
+
+      <Form   action="mailto:vincent@faithforhope.com" method="post" enctype="text/plain">
+
+        <label> Your Name:   </label>
+        <input type="text" name="yourname" >
+        <br />
+        <br />
+        <label for="email"> Email Address:
+        </label>
+        <input type="email" name="youremail">
+        <label> Yor Message:</label>
+        <textarea name="Yourmessage" rows="8" cols="50">  </textarea>
+        <br />
+
+        <input type="submit"  >
+
+      </Form>
+
+  </body>
+</html>
